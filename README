@@ -1,0 +1,24 @@
+A simple sudoku solver using cryptominisat.
+
+To build:
+
+$ CMSAT_DIR=path/to/cryptominisat ./build.sh
+
+To run:
+
+$ CMSAT_DIR=path/to/cryptominisat ./run.sh
+
+The input is of the form of a 9x9 grid, with 0's for unspecified values, like this
+
+6 0 0 7 3 0 0 1 5
+1 0 0 5 0 0 0 9 7
+0 9 0 2 0 0 0 0 0
+3 0 0 0 0 5 0 0 0
+4 2 9 3 0 8 7 5 6
+0 0 0 6 0 0 0 0 9
+0 0 0 0 0 3 0 2 0
+2 3 0 0 0 6 0 0 8
+8 6 0 0 7 2 0 0 4
+
+The output is of the same form.
+
